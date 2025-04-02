@@ -28,9 +28,7 @@ const middle = function(array) {
   if (array.length % 2 === 1) {
     return [array[middleIndex]];
   } else {
-    let middle1 = array[middleIndex - 1];
-    let middle2 = array[middleIndex];
-    return [middle1, middle2];
+    return [array[middleIndex - 1], array[middleIndex]];
   }
 };
 
