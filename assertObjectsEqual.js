@@ -1,3 +1,5 @@
+const inspect = require('util').inspect;
+
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
     return false;
@@ -38,9 +40,9 @@ const assertObjectsEqual = function(actual, expected) {
   const result = eqObjects(actual, expected);
 
   if (result) {
-    console.log(`✅Assertion Passed:`, actual, `===`, expected);
+    console.log(`✅Assertion Passed: ${inspect(actual)} === ${inspect(expected)}`);
   } else {
-    console.log(`🛑Assertion Failed:`, actual, `!==`, expected);
+    console.log(`🛑Assertion Failed: ${inspect(actual)} !== ${inspect(expected)}`);
   }
 };
 
