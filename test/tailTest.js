@@ -9,3 +9,6 @@ assertEqual(result[1], "Labs");
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 tail(words);
 assertEqual(words.length, 3);
+
+assertEqual(tail(["test"]).length, 0);  //Test: if tail is passed an array with only one element
+assertEqual(tail([]).length, 0);        //Test: if tail is passed an empty array
