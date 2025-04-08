@@ -6,8 +6,8 @@ describe("#tail", () => {
   it("returns an array with the elements after the first index for ['Hello', 'Lighthouse', 'Labs']", () => {
     const result = tail(["Hello", "Lighthouse", "Labs"]);
     assert.strictEqual(result.length, 2);
-    assert.strictEqual;(result[0], "Lighthouse");
-    assert.strictEqual;(result[1], "Labs");
+    assert.strictEqual(result[0], "Lighthouse");
+    assert.strictEqual(result[1], "Labs");
   });
 
   it("doesn't modify the original array", () => {
