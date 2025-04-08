@@ -16,20 +16,20 @@ const eqArrays = require('./eqArrays');
 const eqObjects = require('./eqObjects');
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  countOnly: countOnly,
-  countLetters: countLetters,
-  letterPositions: letterPositions,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  map: map,
-  takeUntil: takeUntil,
-  without: without,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual,
-  assertObjectsEqual: assertObjectsEqual,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects
+  head,
+  tail,
+  middle,
+  countOnly,
+  countLetters,
+  letterPositions,
+  findKey,
+  findKeyByValue,
+  map,
+  takeUntil,
+  without,
+  assertEqual,
+  assertArraysEqual,
+  assertObjectsEqual,
+  eqArrays,
+  eqObjects
 };
