@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@b-wizard/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A poor man's imitation of the Lodash library",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/wizbren/lotide.git"
   },
-  "author": "",
+  "author": "Brendan Brown",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wizbren/lotide/issues"
